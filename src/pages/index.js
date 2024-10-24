@@ -30,7 +30,7 @@ export default function Home() {
             <div className="w-1/2 md:w-full">
               <Image
                 src={profilePic}
-                alt="dhanraj"
+                alt="bakshish"
                 className="w-[75%] rounded-full h-auto lg:hidden md:inline-block md:w-full"
                 priority={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw,33vw"
