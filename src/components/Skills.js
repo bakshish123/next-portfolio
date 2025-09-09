@@ -56,7 +56,6 @@ const Skills = () => {
 <Skill name={"Apache Kafka"} x={"28vw"} y={"10vw"} />
 <Skill name={"Kong"} x={"-28vw"} y={"-8vw"} />
 <Skill name={"GitHub"} x={"34vw"} y={"-12vw"} />
-
       </div>
     </>
   );
