@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
-import { Head } from "next/document";
+// import { Head } from "next/document";
 import profilePic from "../../public/images/profile/developer-pic-1.jpg";
 import AnimatedText from "@/components/AnimatedText";
 import { LinkArrow } from "@/components/Icons";
@@ -11,13 +11,13 @@ import TransitionEffect from "@/components/TransitionEffect";
 export default function Home() {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Portfolio Of Bakshish Singh</title>
         <meta
           name="description"
           content="Portfolio of an aspiring web developer"
         />
-      </Head>
+      </Head> */}
       <TransitionEffect />
       <main
         className="flex items-center
